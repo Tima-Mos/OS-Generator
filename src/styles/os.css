@@ -1,0 +1,82 @@
+.textArea{
+    margin-top: 10px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.input{
+    width: 300px;
+}
+
+.cols{
+    padding: 0;
+    margin: 0;
+}
+
+.right-col{
+margin-left: 100px;
+}
+
+.left-col{
+    margin-right: 100px;
+}
+
+.single-col{
+   width: 285px;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+.top-selects {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-left{
+    margin-right: 100px;
+    font-size: 1.25rem;
+}
+
+.select-right{
+    margin-left: 100px;
+    font-size: 1.25rem;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-inputs{
+    text-align: end;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.result-textArea{
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.text-input{
+    height: 25px;
+    width: 110px;
+}
+
+.scriptText > p{
+    padding: 0;
+    margin: 0;
+}
+
+.variablesColor{
+    color: rgb(63, 195, 128);
+}
