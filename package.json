@@ -1,5 +1,6 @@
 {
   "name": "os_generator",
+  "homepage": "https://tima-mos.github.io/OS-Generator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

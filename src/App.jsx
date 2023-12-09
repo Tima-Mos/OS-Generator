@@ -26,19 +26,19 @@ function App() {
 
     const router = createBrowserRouter([
         {
-            path: "/",
+            path: "/OS-Generator/",
             element: <Os resultString={resultString}  updateMap={updateInfo} />,
             children:[
                 {
-                    path: "/script1",
+                    path: "/OS-Generator/script1",
                     element: <Script1 updateResult={updateResultString} parentName={info.get("parentName")} yourName={info.get("yourName")} subject={info.get("subject")} childName={info.get("childName")} childGender={info.get("childGender")} />,
                 },
                 {
-                    path: "/script2",
+                    path: "/OS-Generator/script2",
                     element: <Script2 updateResult={updateResultString} parentName={info.get("parentName")} yourName={info.get("yourName")} subject={info.get("subject")} childName={info.get("childName")} childGender={info.get("childGender")} />,
                 },
                 {
-                    path: "/script4",
+                    path: "/OS-Generator/script4",
                     element: <Script4 updateResult={updateResultString} parentName={info.get("parentName")} yourName={info.get("yourName")} subject={info.get("subject")} childName={info.get("childName")} childGender={info.get("childGender")} />,
                 }
             ]

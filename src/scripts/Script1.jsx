@@ -11,7 +11,6 @@ const Script1 = ({parentName, yourName, subject, childName, childGender, updateR
     function textPush(){
         updateResult("Добрый день,  " + parentName + "!\n" +
             "На связи " + yourName + " , я преподаватель " + subject + " школы RTS.\n" +
-            "\n" +
             "Хочу поделиться с вами результатами модуля и успехами " +getGenitiveCase(childName) + " на уроках.\n" +
             "\n" +
             "На текущем модуле обучения мы разобрали темы:______\n" +

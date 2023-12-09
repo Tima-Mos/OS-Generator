@@ -66,7 +66,7 @@ const Script2 = ({parentName, yourName, subject, childName, childGender, updateR
     return (
         <div className="scriptText">
             Добрый день, <span className="variablesColor">{parentName}</span>!
-                <br/><br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель subject школы RTS.
+                <br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель subject школы RTS.
                 <br/> Хочу поделиться успехами <span className="variablesColor">{getGenitiveCase(childName)}</span> на уроках.
                 <br/>Мы провели 4 урока и <span className="variablesColor">{childName}</span> научил<span className="variablesColor">{childGender === "Мальчик" ? "ся" : "ась"}</span> _________.
 

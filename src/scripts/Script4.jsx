@@ -62,7 +62,7 @@ const Script4 = ({parentName, yourName, subject, childName, childGender, updateR
         <div>
             Добрый день, <span className="variablesColor">{parentName}</span>!
 
-            <br/><br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель <span className="variablesColor">{subject}</span> школы RTS.
+            <br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель <span className="variablesColor">{subject}</span> школы RTS.
             <br/>Хотела бы дать вам обратную связь по нашим урокам и плану обучения <span className="variablesColor">{getGenitiveCase(childName)}</span>.
 
             <br/><br/>Наш курс состоит из __ уроков.
