@@ -22,7 +22,7 @@ const Script2 = ({parentName, yourName, subject, childName, childGender, updateR
 
     function textPush(){
         let whatIGonnaPush = "Добрый день, " + parentName + "!\n" +
-            "На связи " + yourName + ", я преподаватель subject школы RTS.\n" +
+            "На связи " + yourName + ", я преподаватель " + subject + " школы RTS.\n" +
             "Хочу поделиться успехами " +getGenitiveCase(childName)+ " на уроках.\n" +
             "Мы провели 4 урока и " + childName + " научил" +gender(1)+ " _________.\n" +
             "У " +getGenitiveCase(childName)+ " хорошо получается _________.\n\n";
@@ -66,7 +66,7 @@ const Script2 = ({parentName, yourName, subject, childName, childGender, updateR
     return (
         <div className="scriptText">
             Добрый день, <span className="variablesColor">{parentName}</span>!
-                <br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель subject школы RTS.
+                <br/>На связи <span className="variablesColor">{yourName}</span>, я преподаватель <span className="variablesColor">{subject}</span> школы RTS.
                 <br/> Хочу поделиться успехами <span className="variablesColor">{getGenitiveCase(childName)}</span> на уроках.
                 <br/>Мы провели 4 урока и <span className="variablesColor">{childName}</span> научил<span className="variablesColor">{childGender === "Мальчик" ? "ся" : "ась"}</span> _________.
 
