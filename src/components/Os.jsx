@@ -102,6 +102,10 @@ const Os = ({updateMap, resultString}) => {
                                     <option>Python</option>
                                     <option>Unity</option>
                                     <option>Scratch</option>
+                                    <option>Roblox</option>
+                                    <option>Minecraft</option>
+                                    <option>Web</option>
+                                    <option>Digital Creativity</option>
                                 </Form.Select>
                             </InputGroup>
                         </Col>
